@@ -48,7 +48,7 @@ public class RoomController {
         return new RoomDto(room);
     }
 
-    @PutMapping(path = "/{id}/switch-window")
+    @PutMapping(path = "/{id}/switchWindow")
     public List<WindowDto> switchWindow(@PathVariable Long id) {
         Room room = roomDao.findById(id).orElseThrow(IllegalArgumentException::new);
         Set<Window> windows = (Set<Window>) room.getWindows();
@@ -60,7 +60,7 @@ public class RoomController {
         return result;
     }
 
-    @PutMapping(path = "/{id}/switch-heater")
+    @PutMapping(path = "/{id}/switchHeater")
     public List<HeaterDto> switchHeater(@PathVariable Long id) {
         Room room = roomDao.findById(id).orElseThrow(IllegalArgumentException::new);
         Set<Heater> heaters = (Set<Heater>) room.getHeaters();

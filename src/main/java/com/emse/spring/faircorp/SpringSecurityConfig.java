@@ -62,5 +62,4 @@ public class SpringSecurityConfig {
                 .httpBasic(withDefaults())
                 .build();
     }
-
 }
