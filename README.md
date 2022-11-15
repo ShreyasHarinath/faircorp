@@ -40,7 +40,7 @@ The management of the sanitary conditions (COVID-19 pandemic, pollution), user c
     - password: password
 
 
-### This application is deployed on Clever Cloud: [faircorp-shreyasHarinath](https://https://faircorp-shreyasharinath.cleverapps.io/)
+### This application is deployed on Clever Cloud: [faircorp-shreyasHarinath](https://faircorp-shreyasharinath.cleverapps.io/)
 
 -----
 
