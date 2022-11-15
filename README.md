@@ -4,7 +4,7 @@
 
 ### Main Feature
 
-This project provides multiple useful REST API's that can be used to manage entities such as windows, heaters and rooms and in a building.
+This project provides multiple useful REST API's that can be used to manage entities such as windows, heaters and rooms in a building.
 
 -----
 
@@ -16,16 +16,16 @@ The management of the sanitary conditions (COVID-19 pandemic, pollution), user c
 
 ### Technologies Used
 
-- [Spring] - Powerful library for developing backend in Java
-- [Git] - Open source distributed version control system
-- [IntelliJ] - IDE used to code in Java language
+- **Spring** - Powerful library for developing backend in Java
+- **GitHub** - Open source distributed version control system
+- **IntelliJ** - IDE used to code in Java language
 
  --------
 
 *Project includes:*
 - 2 Different types of users
 - 4 Related tables - Building, Room, Window, Heater
-- 4 Data Transfer Objects(DTO) - BuildingDto, RoomDto, WindowDto, HeaterDto
+- 4 Data Transfer Objects (DTO) - BuildingDto, RoomDto, WindowDto, HeaterDto
 - 4 Data Access Objects (DAO) - BuildingDao, RoomDao, HeaterDao, WindowDao
 
 ---------
