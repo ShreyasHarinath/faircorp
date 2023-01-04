@@ -2,6 +2,13 @@ package com.emse.spring.faircorp.model;
 
 import javax.persistence.*;
 
+/**
+ * This is Window Entity 
+ * @Table Table name is `RWINDOW`
+ * @Entity This is the entity name & is used to refer to the entity in queries.
+ @author: Shreyas Harinath
+*/
+
 @Entity
 @Table(name = "RWINDOW")
 public class Window {

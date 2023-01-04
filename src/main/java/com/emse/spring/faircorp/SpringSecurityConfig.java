@@ -13,11 +13,22 @@ import org.springframework.security.web.SecurityFilterChain;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
+/**
+ * SpringSecurityConfig adds security! 
+ * Specifically, SpringSecurityConfig helps to add authentication and authorization to  web application
+ * @Configuration tells Spring container that there is one or more beans that needs to be dealt with on runtime
+ @author: Shreyas Harinath
+*/
+
 @Configuration
 public class SpringSecurityConfig {
 
     private static final String Super_User = "ADMIN";
     private static final String Normal_User = "USER";
+
+    /**
+     * UserDetailsService can be configured to manage users and their permissions
+    */
 
     @Bean
     public UserDetailsService userDetailsService() {
